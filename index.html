@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/sweet/sweetalert2.min.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="container__texto">
+            <h1>Convertidor de Temperatura</h1>
+            <p class="texto__parrafo">Indica la temperatura en °C</p>
+        </div>
+        <input type="text" id="temperatura" style="width: 180px;" class="container__input">
+        <div class="container__botones">
+            <button onclick="convertirTemperaturaF()" class="container__boton" id="btn"> Fahrenheit</button>
+            <button onclick="convertirTemperaturaK()" class="container__boton" id="btn">Kelvin</button>
+        </div>
+        <div class="container__resultado">
+            <h4> </h4>
+        </div> 
+    </div>
+
+   
+    <script src="./script.js"></script>
+    <script src="./assets/sweet/sweetalert2.min.js"></script>
+</body>
+
+</html>
